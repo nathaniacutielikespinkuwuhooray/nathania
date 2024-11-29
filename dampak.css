@@ -57,7 +57,6 @@ body {
     text-align: center;
     cursor: pointer;
 }
-
 /* Dropdown Content */
 .dropdown-content {
     display: none;
@@ -81,17 +80,8 @@ body {
     display: inline-block;
 }
 
-h4{
-    color: rgb(234, 199, 1);
-    margin: 20px 50px;
-    text-align: justify;
-    background-color: rgb(255, 255, 255);
-    border-radius: 15px;
-    padding: 10px 10px 10px;
-}
-
 h1{
-    color: rgb(255,215,0);
+    color:rgb(255, 217, 0);
     font-family: 'Lumanosimo';
     text-shadow: 2px 2px #ffffff;
     text-decoration: underline;
@@ -99,44 +89,62 @@ h1{
     font-size: 50px;
 }
 
+h4{
+    color: rgb(235, 200, 1);
+    margin: 20px 50px;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px 10px 10px;
+}
+
+h4:hover {
+    color: #ff6600;
+    cursor: pointer;
+}
+
+h1{
+    font-family: 'Lumanosimo';
+    text-shadow: 2px 2px #ffffff;
+    text-decoration: underline;
+    text-decoration-color: 5px 5px 5px rgb(255, 255, 255);
+    font-size: 40px;
+}
+
 h3{
-    color: rgb(255, 255, 255);
-    font-family: 'Lumanosimo';
-    font-size: 22px;
-}
-
-h5{
-    color: rgb(255, 255, 255);
-    font-family: 'Lumanosimo';
-    font-size: 23px;
-}
-
-h2{
     color: #ffffff;
     font-family: 'Parkinsans';
     font-size: 20px;
     text-align: center;
 }
 
+h3:hover{
+    cursor: pointer;
+}
+
 .columnside{
-    margin:50px 20px ;
-    width: 30%;
-    background-image: url(gold2.jpg);
-    border-radius: 30px 30px;
-    float: left;
-    padding: 0px 10px;
+    background-color: #ffc31dea;
+    padding: 10px 10px;
+}
+
+.images {
+    margin: 24px; padding-top: 20px; /* Adjusting padding-top for more space */ 
+    align-items: center;
+    border-radius: 70px;
+}
+
+.images:hover {
+    box-shadow: 5px 5px 5px rgb(174, 0, 0);
 }
 
 .highlight {
-    background-color: rgb(236, 200, 1);
+    background-color: rgba(141, 255, 251, 0.55);
     width: 20px;
-    border-radius: 30px;
-    padding: 6px 6px 6px;
+    border-radius: 10px;
+    padding: 0px 10px;
   }
 
-  .highlight2{
-    background-color: rgb(255, 139, 7);
-    width: 20px;
-    border-radius: 12px;
-    padding: 4px 4px 4px;
-  }
+.strong {
+color: #ffaaf4;
+text-shadow: 2px 2px #0a040437;
+}
