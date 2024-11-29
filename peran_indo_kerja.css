@@ -1,0 +1,123 @@
+/* General Reset */
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Parkinsans:wght@300..800&display=swap');
+
+body {
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(yayay.jpg)
+}
+
+/* Navigation Bar */
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: whitesmoke;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.navbar .button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    display: block;
+    font-size: 16px;
+}
+
+.nav-item {
+    position: relative;
+    /* For dropdown positioning */
+    margin: 0 10px;
+}
+
+/* Buttons */
+.button {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    transition: all 0.3s;
+    display: block;
+}
+
+.button:hover {
+    box-shadow: 6px 6px rgb(186, 7, 7);
+    display: flex;
+}
+
+.button {
+    background: url('path-to-image.png') no-repeat center center;
+    background-size: cover;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    /* Align below the button */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #0066cc;
+    padding: 0px;
+    text-decoration: none;
+    border-bottom: 1px solid #e0e0e0;
+    transition: all 0.3s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+}
+
+h4{
+    color: rgb(234, 199, 1);
+    margin: 20px 50px;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px 10px 10px;
+}
+
+h1{
+    color: rgb(255,215,0);
+    font-family: 'Lumanosimo';
+    text-shadow: 2px 2px #ffffff;
+    text-decoration: underline;
+    text-decoration-color: 5px 5px 5px rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+h2{
+    color: #ffffff;
+    font-family: 'Parkinsans';
+    font-size: 20px;
+    text-align: center;
+}
+
+.columnside{
+    margin:50px 20px ;
+    width: 30%;
+    background-image: url(gold2.jpg);
+    border-radius: 30px 30px;
+    float: right;
+    padding: 0px 10px;
+}
+
+.highlight {
+    background-color: rgb(236, 200, 1);
+    width: 20px;
+    border-radius: 30px;
+    padding: 6px 6px 6px;
+  }
